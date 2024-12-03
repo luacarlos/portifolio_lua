@@ -23,6 +23,13 @@ body{
     color: var(--cor-de-texto); 
 }
 
+header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -212,16 +219,59 @@ section{
     margin-top: 50px;
 }
 
-/* falta arrumar toda a área de ler mais sobre mim */
-
-.titulo-mais{
-    color: white;
+.ler-mais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: var(--cor-de-fundo-card);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 90%;
 }
+
+.container-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.titulo-mais {
+    font-size: 2rem;
+    color: var(--cor-de-texto);
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--cor-auxiliar);
+    padding-bottom: 5px;
+}
+
+.titulo-nome {
+    font-size: 2rem;
+    color: var(--cor-de-texto);
+    margin-bottom: 10px;
+}
+
+.apresentacao {
+    font-size: 1.25rem;
+    font-family: var(--fonte);
+    color: var(--cor-de-texto);
+    line-height: 1.6;
+    text-align: justify;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
 
 footer{
     background-color: var(--cor-de-fundo-card);
     text-align: center;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
 }
 
 .redes-sociais-footer{
@@ -233,12 +283,12 @@ footer{
 
 .fa-brands{
     color: white;
-    padding: 0.5rem;
+    padding: 0.25rem;
     font-size: 25px;
 }
 
 .titulo-redes-sociais{
     font-size: 25px;
     color: var(--cor-de-texto);
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.2rem;
 }
