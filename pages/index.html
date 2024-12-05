@@ -6,7 +6,20 @@
     <title>Desenvolvedor</title>
     <link rel="stylesheet" href="../estilos/base.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
 </head>
+
+<script>
+$(document).ready(function(){
+$('.mobile_btn').on('click',function(){
+    $('.mobile_menu').toggleClass('active');
+    $('.mobile_btn').find('i').toggleClass('fa-x');
+})
+})
+</script>
+
+
+
 
 <body>
     <header>
@@ -14,14 +27,27 @@
             <div class="logo"> 
                 <i class="fa-solid fa-l"></i>    
             </div>
+    
+            <div class="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    
             <ul class="nav-links">
-                <li> <a href="#sobre">Início</a></li>
-                <li> <a href="#habilidades">Habilidades</a></li>
-                <li> <a href="#projetos">Projetos</a></li>
-                <li> <a href="#ler-mais">Mais sobre mim</a></li>
+                <li><a href="#sobre">Início</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#ler-mais">Mais sobre mim</a></li>
             </ul>
+    
+            <div class="mobile-nav-links">
+                <a href="#sobre">Início</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#ler-mais">Mais sobre mim</a>
+            </div>
         </nav>
     </header>
+        
     <main>
 
 
