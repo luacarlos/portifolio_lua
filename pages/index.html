@@ -9,53 +9,38 @@
 
 </head>
 
-<script>
-$(document).ready(function(){
-$('.mobile_btn').on('click',function(){
-    $('.mobile_menu').toggleClass('active');
-    $('.mobile_btn').find('i').toggleClass('fa-x');
-})
-})
-</script>
 
 
 
 
 <body>
-    <header>
+    <header class="header">
         <nav class="container">
-            <div class="logo"> 
-                <i class="fa-solid fa-l"></i>    
-            </div>
-    
-            <div class="mobile_btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-    
-            <ul class="nav-links">
-                <li><a href="#sobre">Início</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#sobre-mim">Mais sobre mim</a></li>
-            </ul>
-    
-            <div class="mobile-nav-links">
-                <a href="#sobre">Início</a>
-                <a href="#habilidades">Habilidades</a>
-                <a href="#projetos">Projetos</a>
-                <a href="#sobre-mim">Mais sobre mim</a>
-            </div>
+          <div class="logo"> 
+              <p class="nome-logo">Luã Carlos</p>
+          </div>    
         </nav>
-    </header>
+        <nav class="nav">
+          <input type="checkbox" id="checkbox" class="checkbox"/>
+          <label for="checkbox" class="label-menu">Menu<span class="hamburger"></span>
+          </label>
+          <ul class="menu">
+            <li> <a href="#sobre">Início</a></li>
+            <li> <a href="#habilidades">Habilidades</a></li>
+            <li> <a href="#projetos">Projetos</a></li>
+            <li> <a href="#sobre-mim">Mais sobre mim</a></li>
+          </ul>
+        </nav>
+      </header>
         
     <main>
 
 
         <section id="sobre" class="dev container fade-in">
             <div class="dev-text">
-                <h1>Luã Carlos</h1>
-                <p>Tenho 17 anos, acabei de completar o terceiro ano do ensino médio e sou aluno do curso de desenvolvedor de sistemas do Senac Hub Academy. O fascino pela área da tecnologia e por aprender coisas novas é algo que me fez ingressar no curso, e espero continuar percorrendo esse ramo assim que o curso for finalizado. </p>
-                <a class="btn-contato" href="#ler-mais">Ler mais </a>
+                <h1>Uma Breve Apresentação</h1>
+                <p>Me chamo Luã Carlos, tenho 17 anos, acabei de completar o terceiro ano do ensino médio e sou aluno do curso de desenvolvedor de sistemas do Senac Hub Academy. O fascino pela área da tecnologia e por aprender coisas novas é algo que me fez ingressar no curso, e espero continuar percorrendo esse ramo assim que o curso for finalizado. </p>
+                <a class="btn-contato" href="#sobre-mim">Ler mais </a>
             </div>
 
             <div class="dev-img">
@@ -93,12 +78,15 @@ $('.mobile_btn').on('click',function(){
 
         <section id="projetos" class="container fade-in">
             <H2>Projetos</H2>
+            <h3 class="aviso">(Todos os projetos podem ser acessados no Github através do atalho localizado nos contatos)</h3>
             <div class="projetos-grid">
                 <div class="projeto-card">
-                    <h3 class="titulo-projeto">Projeto Integrador - Agro Plants Now</h3>
-                    <p>Primeira versão de um projeto integrador no qual meu grupo ficou responsável de desenvolver um sistema de gerenciamento de vendas a partir de uma entrevista e planejamento de um documento de requisitos, após a entrevista fizemos a primeira versão prototipada desse projeto através da plataforma FIGMA.</p>
+                    <h3 class="titulo-projeto">Landing page - Hamburgueria 143</h3>
+                    <p>Uma página criada com o auxilílio da professora Enilda, na qual fizemos uma landing page de uma hambburgueria fictícia usando ferramentas de HTML, CSS e JAVASCRIPT para deixar a página funcional, estétiica e responsiva. </p>
                     <div class="projeto-tags">
-                        <span>FIGMA</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
                     </div>
                 </div>
                 <div class="projeto-card">
