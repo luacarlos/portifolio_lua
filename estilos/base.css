@@ -126,15 +126,13 @@ section{
 }
 
 .dev-text h1{
-    padding-right: 1.5rem;
     font-size: 3.5rem;
     margin-bottom: 1.2rem;
     color: var(--cor-primaria);
 }
 
 .dev-text p{
-    padding-right: 1.2rem;
-    font-size: 1.23rem;
+    font-size: 1.2rem;
     margin-bottom: 2rem;
 }
 
