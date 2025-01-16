@@ -126,14 +126,14 @@ section{
 }
 
 .dev-text h1{
-    padding-right: 1.5rem;
-    font-size: 3.5rem;
+    /* padding-right: 1.5rem; */
+    font-size: 3.2rem;
     margin-bottom: 1.2rem;
     color: var(--cor-primaria);
 }
 
 .dev-text p{
-    padding-right: 1.2rem;
+    /* padding-right: 1.2rem; */
     font-size: 1.23rem;
     margin-bottom: 2rem;
 }
@@ -384,8 +384,9 @@ footer{
   
   @media (max-width: 600px) {
 
-    body{
-        width: 111vw;
+
+    .header{
+        width: 100vw;    
     }
 
     .menu{
