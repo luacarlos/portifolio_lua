@@ -310,7 +310,6 @@ section{
 footer{
     background-color: var(--cor-de-fundo-card);
     text-align: center;
-    width: 104vw;
     padding: 1.5rem 0;
 }
 
@@ -385,7 +384,11 @@ footer{
   
   @media (max-width: 600px) {
 
-    
+    footer{
+        width: 104vw;
+    }
+
+
     .header{
         width: 100%;    
     }
